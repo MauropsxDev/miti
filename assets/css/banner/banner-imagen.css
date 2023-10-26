@@ -1,0 +1,8 @@
+.banner__imagen{
+    width: 100%;
+    /*height: 350px;  Deja que la altura se ajuste automáticamente según el contenido */
+   /* padding-bottom: 20%; /* Esto ajustará la altura en relación con el ancho */
+
+    /*height: calc(100vh - 72px);*/
+
+}

@@ -1,0 +1,51 @@
+
+
+.footer {
+    background-color: #686666; /* Fondo gris oscuro */
+    color: #fff; /* Color del texto */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px; /* Ajusta el tamaño de tu logo */
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-social ul li {
+    margin-right: 20px;
+}
+
+/* Estilo para los íconos de redes sociales (ajusta el tamaño según tus íconos) */
+.footer-social ul li img {
+    width: 30px;
+    height: 30px;
+}

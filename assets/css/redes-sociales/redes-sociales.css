@@ -1,0 +1,25 @@
+.redes__sociales {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .redes__sociales ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .redes__sociales ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .redes__sociales ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .redes__sociales a img {
+    width: 30px;
+    height: 30px;
+    border: none;
+  }
+  
