@@ -1,8 +1,26 @@
-.receta{
+.receta {
     background: #fdfdfd;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5rem;
-    margin-right: 5rem;
-    width: calc(25% - 5rem);
+    margin-bottom: 2rem; /* Redujimos el margen inferior */
+    margin-right: 2rem;  /* Redujimos el margen derecho */
+    padding: 1rem; /* Agregamos un padding base */
+    font-size: 16px; /* Tamaño de fuente base */
+    width: calc(25% - 2rem); /* Ajustamos el ancho base */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .receta {
+        padding: 0.5rem; /* Ajusta el padding para pantallas pequeñas */
+        font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+}
+
+/* Media query para pantallas muy pequeñas, como smartphones en modo retrato */
+@media (max-width: 480px) {
+    .receta {
+        padding: 0.25rem; /* Ajusta el padding para pantallas muy pequeñas */
+        font-size: 12px; /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+    }
 }

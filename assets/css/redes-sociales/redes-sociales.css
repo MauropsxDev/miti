@@ -22,4 +22,11 @@
     height: 30px;
     border: none;
   }
+
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .redes__sociales ul li {
+        margin-right: 5px; /* Reduce aún más el espacio entre los íconos */
+    }
+  }
   

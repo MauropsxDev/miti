@@ -1,3 +1,10 @@
 .receta__titulo{
     font-size: 1.4375rem;
 }
+
+/* Media query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+    .receta__titulo {
+        padding: 0.5rem; /* Ajusta el padding para pantallas más pequeñas */
+    }
+}
