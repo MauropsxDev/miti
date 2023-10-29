@@ -1,3 +1,18 @@
 .menu__item{
     list-style: none;
 }
+
+/* Estilos generales para todos los tamaños de pantalla */
+.menu__item {
+    list-style: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
+@media (max-width: 768px) {
+    .menu__item {
+        font-size: 14px; /* Reducir el tamaño de fuente */
+        margin: 0 5px; /* Reducir el margen entre elementos */
+    }
+}

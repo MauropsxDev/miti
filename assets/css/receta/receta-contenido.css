@@ -1,20 +1,18 @@
-.receta__contenido{
+.receta__contenido {
     padding: 1rem;
-    
+    font-size: 4vw; /* Utilizamos vw para ajustar el tamaño de fuente al ancho de la pantalla */
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
     .receta__contenido {
-        padding: 0.5rem; /* Ajusta el padding para pantallas pequeñas */
-        font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        font-size: 3vw; /* Reducimos el tamaño de fuente para pantallas pequeñas */
     }
 }
 
 /* Media query para pantallas muy pequeñas, como smartphones en modo retrato */
 @media (max-width: 480px) {
     .receta__contenido {
-        padding: 0.25rem; /* Ajusta el padding para pantallas muy pequeñas */
-        font-size: 12px; /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+        font-size: 2.5vw; /* Reducimos aún más el tamaño de fuente para pantallas muy pequeñas */
     }
 }

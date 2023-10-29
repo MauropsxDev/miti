@@ -4,9 +4,3 @@
     text-align: justify;
 }
 
-/* Media query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
-@media (max-width: 768px) {
-    .receta__descripcion {
-        padding: 0.5rem; /* Ajusta el padding para pantallas más pequeñas */
-    }
-}

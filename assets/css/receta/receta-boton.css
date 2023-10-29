@@ -1,20 +1,20 @@
-.receta__boton{
+.receta__boton {
     background: #DA2B1F;
     border: none;
     border-radius: 5px;
     color: #fdfdfd;
     padding: 1rem;
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    width: 100%; /* El ancho del botón ocupará el 100% del ancho del contenedor */
+    height: auto; /* El alto se ajustará automáticamente al contenido */
 }
 
-.receta__boton:hover{
+.receta__boton:hover {
     cursor: pointer;
     background: #9f1010;
-
-
 }
 
-/* Media query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
 @media (max-width: 768px) {
     .receta__boton {
         padding: 0.5rem; /* Ajusta el padding para pantallas más pequeñas */
