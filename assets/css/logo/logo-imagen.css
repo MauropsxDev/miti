@@ -1,16 +1,11 @@
-/*.logo__imagen{
-    width: 100px;
-    
-
-}*/
 /* Estilos predeterminados para el logo */
 .logo__imagen {
-    width: 10%; /* Utilizamos un porcentaje del ancho del contenedor */
+    width: 7em; /* Utilizamos unidades 'em' para el tamaño base del logo */
 }
 
 /* Media query para pantallas muy pequeñas, como dispositivos móviles en modo retrato */
 @media (max-width: 480px) {
     .logo__imagen {
-        width: 20%; /* Reducimos el porcentaje para pantallas más pequeñas */
+        width: 4em; /* Reducimos el tamaño a la mitad para pantallas más pequeñas */
     }
 }

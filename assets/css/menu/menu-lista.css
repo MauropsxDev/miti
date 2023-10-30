@@ -1,3 +1,14 @@
 .menu__lista{
     display:flex;
 }
+
+/* Media query para pantallas más pequeñas, por ejemplo, dispositivos móviles */
+@media (max-width: 768px) {
+    .menu__lista {
+        flex-direction: column; /* Cambia la dirección de flexión a column */
+    }
+
+    .menu__lista li {
+        margin: 10px 0; /* Agrega espacio entre elementos en la columna */
+    }
+}

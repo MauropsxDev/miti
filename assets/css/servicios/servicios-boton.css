@@ -1,0 +1,25 @@
+/* Estilos base para los botones */
+.servicios__boton {
+    background: #DA2B1F;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    font-size: 14px; /* Nuevo tamaño de fuente */
+}
+
+.servicios__boton:hover {
+    background: #9f1010;
+}
+
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
+@media (max-width: 768px) {
+    .servicios__boton {
+        padding: 0.5rem;
+        font-size: 12px; /* Tamaño de fuente aún más pequeño en pantallas más pequeñas */
+    }
+}

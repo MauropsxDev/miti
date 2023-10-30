@@ -1,18 +1,18 @@
-.receta__contenido {
+.servicios__contenido {
     padding: 1rem;
     font-size: 4vw; /* Utilizamos vw para ajustar el tamaño de fuente al ancho de la pantalla */
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
-    .receta__contenido {
+    .servicios__contenido {
         font-size: 3vw; /* Reducimos el tamaño de fuente para pantallas pequeñas */
     }
 }
 
 /* Media query para pantallas muy pequeñas, como smartphones en modo retrato */
 @media (max-width: 480px) {
-    .receta__contenido {
+    .servicios__contenido {
         font-size: 2.5vw; /* Reducimos aún más el tamaño de fuente para pantallas muy pequeñas */
     }
 }
