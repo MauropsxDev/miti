@@ -4,3 +4,13 @@
     flex-wrap: wrap;
     padding: 5rem 0 0 5rem;
 }
+
+/* Media Query para pantallas más pequeñas, por ejemplo, dispositivos móviles */
+@media (max-width: 768px) {
+    .servicio {
+        padding: 2rem;
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+        align-items: center; /* Centra los elementos verticalmente */
+        justify-content: center; /* Centra los elementos horizontalmente */
+    }
+}
