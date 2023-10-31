@@ -15,6 +15,9 @@
     .servicios {
         padding: 0.5rem; /* Ajusta el padding para pantallas pequeñas */
         font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        width: 100%; /* Ancho del 100% para ocupar todo el ancho de la pantalla */
+        max-width: 100%; /* Ancho máximo del 100% para asegurarse de que ocupe todo el ancho */
+        box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
       
     }
 }
@@ -24,6 +27,8 @@
     .servicios {
         padding: 0.25rem; /* Ajusta el padding para pantallas muy pequeñas */
         font-size: 12px; /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
-     
+        width: 100%; /* Ancho del 100% para ocupar todo el ancho de la pantalla */
+        max-width: 100%; /* Ancho máximo del 100% para asegurarse de que ocupe todo el ancho */
+        box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
     }
 }

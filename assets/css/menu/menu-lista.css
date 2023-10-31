@@ -6,6 +6,8 @@
 @media (max-width: 768px) {
     .menu__lista {
         flex-direction: column; /* Cambia la dirección de flexión a column */
+        align-items: center; /* Centra los elementos horizontalmente */
+        width: 100%; /* Ocupa el 100% del ancho de la pantalla */
     }
 
     .menu__lista li {
